@@ -14,13 +14,13 @@
     background-color:white!important; 
   }
   .dropdown-item{
-    color: #5e7285 !important; 
+    color: #0BADA685 !important; 
   }
   .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
     background-color:white !important; 
   }
   a{
-    color: #5e7285;
+    color: #0BADA6
     font-size: 16px; 
   }
   .nav-link:hover{
@@ -34,19 +34,19 @@
     /* Headings */
   h1 {
     font-size: 50px;
-    color: rgb(33, 173, 138)
+    color: #0BADA6
    
   }
   
   h2 {
     font-size: 40px;
-    color: rgb(33, 173, 138)
+    color: #0BADA6
   
   }
 
   h3 {
     font-size: 30px;
-    color:  rgb(33, 173, 138)
+    color:  #0BADA6
   
   }
   
@@ -59,4 +59,29 @@
       background-color: white;
     }
     
+    /* Media Queries */
+@media(max-width: 992px){
+  .navbar-expand-lg{
+  background-color: #0BADA6!important;
+  }
+  .navbar{
+    max-height: none; 
+    padding: inherit;
+  }
+  .navbar div{
+    margin: inherit; 
+    background-color: white;  
+  }
+  .navbar-brand{
+    padding: 10px !important; 
+  }
+  
+  button{
+    margin-right: 20px; 
+  }
+  button:focus {
+  
+    outline: 1px dotted;
     
+    }
+  }
